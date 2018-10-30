@@ -1,4 +1,4 @@
-# next-io-gulp
+# gulp-sass-helper
 
 Helper app to unify sass implementations for gulp task builds.
 
