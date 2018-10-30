@@ -1,6 +1,6 @@
 # next-io-gulp
 
-Helper app to unify gulp implementations for next-io gulp task builds.
+Helper app to unify sass implementations for gulp task builds.
 
 [![Henrique](https://img.shields.io/badge/maintainer-Henrique-blue.svg?colorB=0066ff)](https://henriquecarv.com)
 [![LICENSE](https://img.shields.io/github/license/henriquecarv/gulp-sass-helper.svg)](./LICENSE)
