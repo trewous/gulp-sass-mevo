@@ -14,25 +14,25 @@ Helper app to unify sass implementations for gulp task builds.
 
 ## Installing
 
-- `npm i -D gulp@next next-io-gulp stylelint stylelint-config-sass-guidelines stylelint-scss`
+- `npm i -D gulp@next gulp-sass-helper stylelint stylelint-config-sass-guidelines stylelint-scss`
 
 ## Usage
 
 ```javascript
 const gulp = require('gulp');
-const nextIOGulp = require('next-io-gulp');
+const helper = require('gulp-sass-helper');
 
 const paths = {sass: {src: './react/**/*.scss', dest: './react'}};
 
 let isDev = true;
 
 const runSassCompiler = done => {
-	nextIOGulp.sassCompiler(paths);
+	helper.sassCompiler(paths);
 	done();
 };
 
 const runSassLint = done => {
-	nextIOGulp.sassLint(paths, isDev);
+	helper.sassLint(paths, isDev);
 	done();
 };
 

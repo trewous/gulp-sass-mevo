@@ -22,7 +22,7 @@
 		"gulp-sass": "^4.0.2",
 		"gulp-stylelint": "^8.0.0",
 		"gulp-uglify": "^3.0.1",
-		"node-sass": "^4.9.4",
+		"node-sass": "^4.9.4",	
 		"pump": "^3.0.0",
 		"stylelint": "^9.7.0",
 		"stylelint-scss": "^3.3.2"
