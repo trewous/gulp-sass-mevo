@@ -1,0 +1,27 @@
+{
+	"name": "gulp-sass-helper",
+	"description": "Helper app to unify gulp implementations for next-io gulp task builds.",
+	"version": "1.0.0",
+	"private": true,
+	"main": "index.js",
+	"keywords": [
+		"gulp",
+		"sass",
+		"sass-lint",
+		"lint",
+		"jussi"
+	],
+	"author": "Henrique Carvalho da Cruz <henriquecarv.cruz@gmail.com> (https://henriquecarv.com)",
+	"license": "MIT",
+	"dependencies": {
+		"gulp": "^4.0.0",
+		"gulp-clean-css": "^3.10.0",
+		"gulp-sass": "^4.0.2",
+		"gulp-stylelint": "^8.0.0",
+		"gulp-uglify": "^3.0.1",
+		"node-sass": "^4.9.4",
+		"pump": "^3.0.0",
+		"stylelint": "^9.7.0",
+		"stylelint-scss": "^3.3.2"
+	}
+}
