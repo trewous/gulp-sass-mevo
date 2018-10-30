@@ -36,3 +36,10 @@ const runSassLint = done => {
 
 const build = gulp.series(runSassLint, runSassCompiler);
 ```
+
+### License
+
+Copylefted (c) 2018 [Henrique Carvalho da Cruz][1] Licensed under the [MIT license][2].
+
+[1]: https://henriquecarv.com
+[2]: ./LICENSE
