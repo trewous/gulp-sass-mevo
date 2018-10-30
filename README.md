@@ -1,5 +1,10 @@
 # next-io-gulp
+
 Helper app to unify gulp implementations for next-io gulp task builds.
+
+[![Henrique](https://img.shields.io/badge/maintainer-Henrique-blue.svg?colorB=0066ff)](https://henriquecarv.com)
+[![LICENSE](https://img.shields.io/github/license/henriquecarv/gulp-sass-helper.svg)](./LICENSE)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=henriquecarv/gulp-sass-helper)](https://dependabot.com)
 
 ## System Requirements
 
@@ -31,4 +36,3 @@ const runSassLint = done => {
 
 const build = gulp.series(runSassLint, runSassCompiler);
 ```
-
