@@ -9,13 +9,26 @@ Helper app to unify sass implementations for gulp task builds.
 
 ## System Requirements
 
-- **[NodeJS](https://nodejs.org/en/)** (version >= 8).
+- **[NodeJS](https://nodejs.org/en/)** (version >= 10).
 
 ## Installing
 
 - `npm i -D gulp@next gulp-sass-helper stylelint stylelint-config-sass-guidelines stylelint-scss`
 
 ## Usage
+
+- Create your stylelint files(".stylelintrc.json" and ".styleignore") on the root directory of your project.
+
+- We suggest you to start with these basic lint configurations, adding your custom rules afterwards.
+
+```json
+{
+	"plugins": ["stylelint-scss"],
+	"extends": "stylelint-config-sass-guidelines"
+}
+```
+
+- Create a gulpfile to run your tasks.
 
 ```javascript
 const gulp = require('gulp');

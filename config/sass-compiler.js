@@ -10,7 +10,10 @@ sass.compiler = require('node-sass');
 const css = (paths, cb) => {
 	const result = [
 		gulp.src(paths.sass.src),
-		sass(),
+		sass().on('error', error => {
+			console.error(error.message);
+			process.exit(1);
+		}),
 		cleanCSS({compatibility: 'ie8', inline: ['none']}),
 		gulp.dest(file => {
 			return file.base;
