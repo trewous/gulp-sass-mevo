@@ -1,30 +1,39 @@
 {
-	"name": "gulp-sass-helper",
-	"description": "Helper app to unify sass implementations for gulp task builds.",
-	"version": "1.0.3",
-	"main": "index.js",
-	"repository": {
-		"type": "git",
-		"url": "git+https://henriquecarv@github.com/henriquecarv/gulp-sass-helper.git"
-	},
-	"keywords": [
-		"gulp",
-		"sass",
-		"sass-lint",
-		"lint",
-		"jussi"
-	],
-	"author": "Henrique Carvalho da Cruz <henriquecarv.cruz@gmail.com> (https://henriquecarv.com)",
-	"license": "MIT",
-	"dependencies": {
-		"gulp": "^4.0.0",
-		"gulp-clean-css": "^3.10.0",
-		"gulp-sass": "^4.0.2",
-		"gulp-stylelint": "^8.0.0",
-		"gulp-uglify": "^3.0.1",
-		"node-sass": "^4.10.0",
-		"pump": "^3.0.0",
-		"stylelint": "^9.7.1",
-		"stylelint-scss": "^3.3.2"
-	}
+  "name": "gulp-sass-helper",
+  "description": "Helper app to unify sass implementations for gulp task builds.",
+  "version": "1.0.3",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://henriquecarv@github.com/henriquecarv/gulp-sass-helper.git"
+  },
+  "keywords": [
+    "gulp",
+    "sass",
+    "sass-lint",
+    "lint",
+    "jussi"
+  ],
+  "author": "Henrique Carvalho da Cruz <henriquecarv.cruz@gmail.com> (https://henriquecarv.com)",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-stylelint": "^8.0.0",
+    "gulp-uglify": "^3.0.1",
+    "node-sass": "^4.10.0",
+    "pump": "^3.0.0",
+    "stylelint": "^9.7.1",
+    "stylelint-scss": "^3.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
 }

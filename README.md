@@ -19,12 +19,14 @@ Helper app to unify sass implementations for gulp task builds.
 
 - Create your stylelint files(".stylelintrc.json" and ".styleignore") on the root directory of your project.
 
-- We suggest you to start with these basic lint configurations, adding your custom rules afterwards.
+- Setup your code [editor][3] to indent using spaces instead of tabs.
+
+- Start with these basic lint configurations, adding your custom rules afterwards.
 
 ```json
 {
-	"plugins": ["stylelint-scss"],
-	"extends": "stylelint-config-sass-guidelines"
+  "plugins": ["stylelint-scss"],
+  "extends": "stylelint-config-sass-guidelines"
 }
 ```
 
@@ -34,18 +36,18 @@ Helper app to unify sass implementations for gulp task builds.
 const gulp = require('gulp');
 const helper = require('gulp-sass-helper');
 
-const paths = {sass: {src: './react/**/*.scss', dest: './react'}};
+const paths = { sass: { src: './react/**/*.scss', dest: './react' } };
 
 let isDev = true;
 
-const runSassCompiler = done => {
-	helper.sassCompiler(paths);
-	done();
+const runSassCompiler = (done) => {
+  helper.sassCompiler(paths);
+  done();
 };
 
-const runSassLint = done => {
-	helper.sassLint(paths, isDev);
-	done();
+const runSassLint = (done) => {
+  helper.sassLint(paths, isDev);
+  done();
 };
 
 const build = gulp.series(runSassLint, runSassCompiler);
@@ -57,3 +59,4 @@ Copylefted (c) 2018 [Henrique Carvalho da Cruz][1] Licensed under the [MIT licen
 
 [1]: https://henriquecarv.com
 [2]: ./LICENSE
+[3]: ./.editorconfig
