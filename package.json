@@ -21,7 +21,7 @@
   "license": "MIT",
   "dependencies": {
     "gulp": "^4.0.0",
-    "gulp-clean-css": "^3.10.0",
+    "gulp-clean-css": "^4.0.0",
     "gulp-sass": "^4.0.2",
     "gulp-stylelint": "^8.0.0",
     "gulp-uglify": "^3.0.1",
