@@ -27,13 +27,13 @@
     "gulp-uglify": "^3.0.1",
     "node-sass": "^4.11.0",
     "pump": "^3.0.0",
-    "stylelint": "^9.9.0",
-    "stylelint-scss": "^3.4.1"
+    "stylelint": "^9.10.1",
+    "stylelint-scss": "^3.5.2"
   },
   "devDependencies": {
-    "eslint": "^5.10.0",
+    "eslint": "^5.13.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0"
+    "eslint-plugin-import": "^2.16.0"
   }
 }
