@@ -1,3 +1,4 @@
+const autoprefixer = require('gulp-autoprefixer');
 const cleanCSS = require('gulp-clean-css');
 const gulp = require('gulp');
 const pump = require('pump');
@@ -14,6 +15,7 @@ const css = (paths, cb) => {
       process.exit(1);
     }),
     cleanCSS({ compatibility: 'ie8', inline: ['none'] }),
+    autoprefixer(),
     gulp.dest(file => file.base),
   ];
 
