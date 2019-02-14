@@ -22,14 +22,12 @@ Helper app to unify sass implementations for gulp task builds.
 
 - Create your stylelint files(".stylelintrc.json" and ".styleignore") on the root directory of your project.
 
-- Setup your code [editor][3] to indent using spaces instead of tabs.
-
 - Start with these basic lint configurations, adding your custom rules afterwards.
 
 ```json
 {
-  "plugins": ["stylelint-scss"],
-  "extends": "stylelint-config-sass-guidelines"
+	"plugins": ["stylelint-scss"],
+	"extends": "stylelint-config-sass-guidelines"
 }
 ```
 
@@ -44,16 +42,33 @@ const paths = { sass: { src: './react/**/*.scss', dest: './react' } };
 let isDev = true;
 
 const runSassCompiler = (done) => {
-  helper.sassCompiler(paths);
-  done();
+	helper.sassCompiler(paths);
+	done();
 };
 
 const runSassLint = (done) => {
-  helper.sassLint(paths, isDev);
-  done();
+	helper.sassLint(paths, isDev);
+	done();
 };
 
 const build = gulp.series(runSassLint, runSassCompiler);
+```
+
+- Create a **Browser's list** `.browserslistrc` configuration file, on the root directory of your project.
+
+```json
+# Browsers that we support
+
+> 1%
+last 2 versions
+firefox >= 4
+safari 7
+safari 8
+safari 9
+IE 8
+IE 9
+IE 10
+IE 11
 ```
 
 ### License
@@ -62,6 +77,5 @@ Copylefted (c) 2018 [Henrique Carvalho da Cruz][1] Licensed under the [MIT licen
 
 [1]: https://henriquecarv.com
 [2]: ./LICENSE
-[3]: ./.editorconfig
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fhenriquecarv%2Fgulp-sass-helper.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fhenriquecarv%2Fgulp-sass-helper?ref=badge_large)
