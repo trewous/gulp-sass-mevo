@@ -2,6 +2,7 @@
 
 Helper app to unify sass implementations for gulp task builds.
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f393343e753149e8870547d17561b012)](https://app.codacy.com/app/henriquecarv/gulp-sass-helper?utm_source=github.com&utm_medium=referral&utm_content=henriquecarv/gulp-sass-helper&utm_campaign=Badge_Grade_Settings)
 [![Build Status](https://dev.azure.com/henriquecarvgit/henriquecarvgit/_apis/build/status/henriquecarv.gulp-sass-helper?branchName=master)](https://dev.azure.com/henriquecarvgit/henriquecarvgit/_build/latest?definitionId=3)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fhenriquecarv%2Fgulp-sass-helper.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fhenriquecarv%2Fgulp-sass-helper?ref=badge_shield)
 [![npm](https://img.shields.io/npm/v/gulp-sass-helper.svg)](https://www.npmjs.com/package/gulp-sass-helper)
