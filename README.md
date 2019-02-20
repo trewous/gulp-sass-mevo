@@ -21,7 +21,6 @@ Helper app to unify sass implementations for gulp task builds.
 ## Usage
 
 - Create your stylelint files(".stylelintrc.json" and ".styleignore") on the root directory of your project.
-
 - Start with these basic lint configurations, adding your custom rules afterwards.
 
 ```json
@@ -37,16 +36,16 @@ Helper app to unify sass implementations for gulp task builds.
 const gulp = require('gulp');
 const helper = require('gulp-sass-helper');
 
-const paths = { sass: { src: './react/**/*.scss', dest: './react' } };
+const paths = {sass: {src: './react/**/*.scss', dest: './react'}};
 
 let isDev = true;
 
-const runSassCompiler = (done) => {
+const runSassCompiler = done => {
 	helper.sassCompiler(paths);
 	done();
 };
 
-const runSassLint = (done) => {
+const runSassLint = done => {
 	helper.sassLint(paths, isDev);
 	done();
 };
