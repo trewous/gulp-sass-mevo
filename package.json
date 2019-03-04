@@ -25,14 +25,14 @@
     "gulp-clean-css": "^4.0.0",
     "gulp-sass": "^4.0.2",
     "gulp-stylelint": "^8.0.0",
-    "gulp-uglify": "^3.0.1",
+    "gulp-uglify": "^3.0.2",
     "node-sass": "^4.11.0",
     "pump": "^3.0.0",
     "stylelint": "^9.10.1",
-    "stylelint-scss": "^3.5.3"
+    "stylelint-scss": "^3.5.4"
   },
   "devDependencies": {
-    "eslint": "^5.14.0",
+    "eslint": "^5.15.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.16.0"
