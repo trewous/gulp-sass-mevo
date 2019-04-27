@@ -25,29 +25,29 @@ Helper app to unify sass implementations for gulp task builds.
 
 ```json
 {
-	"plugins": ["stylelint-scss"],
-	"extends": "stylelint-config-sass-guidelines"
+  "plugins": ["stylelint-scss"],
+  "extends": "stylelint-config-sass-guidelines"
 }
 ```
 
 - Create a gulpfile to run your tasks.
 
 ```javascript
-const gulp = require('gulp');
-const helper = require('gulp-sass-helper');
+const gulp = require("gulp");
+const helper = require("gulp-sass-helper");
 
-const paths = {sass: {src: './react/**/*.scss', dest: './react'}};
+const paths = { sass: { src: "./react/**/*.scss", dest: "./react" } };
 
 let isDev = true;
 
 const runSassCompiler = done => {
-	helper.sassCompiler(paths);
-	done();
+  helper.sassCompiler(paths);
+  done();
 };
 
 const runSassLint = done => {
-	helper.sassLint(paths, isDev);
-	done();
+  helper.sassLint(paths, isDev);
+  done();
 };
 
 const build = gulp.series(runSassLint, runSassCompiler);
