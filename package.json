@@ -20,21 +20,21 @@
   "author": "Henrique Carvalho da Cruz <henriquecarv.cruz@gmail.com> (https://henriquecarv.com)",
   "license": "MIT",
   "dependencies": {
-    "gulp": "^4.0.0",
-    "gulp-autoprefixer": "^6.0.0",
-    "gulp-clean-css": "^4.0.0",
+    "gulp": "^4.0.1",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean-css": "^4.2.0",
     "gulp-sass": "^4.0.2",
     "gulp-stylelint": "^9.0.0",
     "gulp-uglify": "^3.0.2",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.12.0",
     "pump": "^3.0.0",
     "stylelint": "^10.0.1",
-    "stylelint-scss": "^3.5.4"
+    "stylelint-scss": "^3.6.0"
   },
   "devDependencies": {
-    "eslint": "^5.15.0",
+    "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.16.0"
+    "eslint-plugin-import": "^2.17.2"
   }
 }
