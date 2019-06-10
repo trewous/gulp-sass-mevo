@@ -1,0 +1,5 @@
+.github/
+.editorconfig
+.eslint*
+azure-pipelines.yml
+*.md
