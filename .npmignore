@@ -4,3 +4,4 @@
 azure-pipelines.yml
 *.md
 scripts/
+.env
