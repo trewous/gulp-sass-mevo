@@ -28,15 +28,16 @@
 		"gulp-stylelint": "^9.0.0",
 		"gulp-uglify": "^3.0.2",
 		"node-sass": "^4.12.0",
-		"npm-cli-login": "^0.1.1",
 		"pump": "^3.0.0",
 		"stylelint": "^10.1.0",
 		"stylelint-scss": "^3.8.0"
 	},
 	"devDependencies": {
+		"dotenv": "^8.0.0",
 		"eslint": "^6.0.1",
 		"eslint-config-airbnb": "^17.1.0",
 		"eslint-config-airbnb-base": "^13.1.0",
-		"eslint-plugin-import": "^2.18.0"
+		"eslint-plugin-import": "^2.18.0",
+		"npm-cli-login": "^0.1.1"
 	}
 }
