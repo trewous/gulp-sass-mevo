@@ -3,3 +3,4 @@
 .eslint*
 azure-pipelines.yml
 *.md
+scripts/
