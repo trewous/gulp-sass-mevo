@@ -5,3 +5,4 @@ azure-pipelines.yml
 *.md
 scripts/
 .env
+.env.example
