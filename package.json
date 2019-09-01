@@ -4,8 +4,7 @@
 	"version": "1.10.0",
 	"main": "index.js",
 	"scripts": {
-		"lint": "eslint . --fix",
-		"prepublishOnly": "node ./scripts/npm-login.js"
+		"lint": "eslint . --fix"
 	},
 	"repository": {
 		"type": "git",
@@ -21,7 +20,7 @@
 	"license": "MIT",
 	"dependencies": {
 		"gulp": "^4.0.2",
-		"gulp-autoprefixer": "^6.1.0",
+		"gulp-autoprefixer": "^7.0.0",
 		"gulp-clean-css": "^4.2.0",
 		"gulp-sass": "^4.0.2",
 		"gulp-stylelint": "^9.0.0",
@@ -29,14 +28,13 @@
 		"node-sass": "^4.12.0",
 		"pump": "^3.0.0",
 		"stylelint": "^10.1.0",
-		"stylelint-scss": "^3.9.3"
+		"stylelint-scss": "^3.10.0"
 	},
 	"devDependencies": {
-		"dotenv": "^8.0.0",
-		"eslint": "^6.1.0",
-		"eslint-config-airbnb": "^18.0.0",
+		"dotenv": "^8.1.0",
+		"eslint": "^6.3.0",
+		"eslint-config-airbnb": "^18.0.1",
 		"eslint-config-airbnb-base": "^14.0.0",
-		"eslint-plugin-import": "^2.18.2",
-		"npm-cli-login": "^0.1.1"
+		"eslint-plugin-import": "^2.18.2"
 	}
 }
