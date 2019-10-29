@@ -6,3 +6,4 @@ azure-pipelines.yml
 scripts/
 .env
 .env.example
+yarn.lock
