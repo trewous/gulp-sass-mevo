@@ -1,7 +1,7 @@
 {
 	"name": "gulp-sass-helper",
 	"description": "Helper app to unify sass implementations for gulp task builds.",
-	"version": "1.16.0",
+	"version": "1.17.0",
 	"main": "index.js",
 	"scripts": {
 		"lint": "eslint . --fix",
