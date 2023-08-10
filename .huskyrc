@@ -1,5 +1,0 @@
-{
-	"hooks": {
-		"pre-commit": "run-s lint stage-files"
-	}
-}

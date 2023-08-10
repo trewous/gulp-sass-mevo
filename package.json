@@ -1,7 +1,7 @@
 {
-	"name": "gulp-sass-helper",
+	"name": "mevo-gulp-sass",
 	"description": "Helper app to unify sass implementations for gulp task builds.",
-	"version": "1.17.0",
+	"version": "1.0.0",
 	"main": "index.js",
 	"scripts": {
 		"lint": "eslint . --fix",
@@ -9,7 +9,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://henriquecarv@github.com/henriquecarv/gulp-sass-helper.git"
+		"url": "git+https://github.com/trewous/gulp-sass-mevo.git"
 	},
 	"keywords": [
 		"gulp",
@@ -17,7 +17,7 @@
 		"sass-lint",
 		"lint"
 	],
-	"author": "Henrique Carvalho da Cruz <henriquecarv.cruz@gmail.com> (https://henriquecarv.com)",
+	"author": "Michel Januário da Silva <micheljanura@hotmail.com> (https://www.linkedin.com/in/micheljsilva)",
 	"license": "MIT",
 	"dependencies": {
 		"gulp": "^4.0.2",
@@ -26,8 +26,8 @@
 		"gulp-sass": "^4.1.0",
 		"gulp-stylelint": "^13.0.0",
 		"gulp-uglify": "^3.0.2",
-		"node-sass": "^4.14.1",
 		"pump": "^3.0.0",
+		"sass": "^1.65.1",
 		"stylelint": "^13.3.3",
 		"stylelint-scss": "^3.17.2"
 	},
@@ -37,7 +37,6 @@
 		"eslint-config-airbnb": "^18.1.0",
 		"eslint-config-airbnb-base": "^14.1.0",
 		"eslint-plugin-import": "^2.20.2",
-		"husky": "^4.2.5",
 		"npm-run-all": "^4.1.5"
 	}
 }
