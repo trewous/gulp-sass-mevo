@@ -1,13 +1,11 @@
-# gulp-sass-helper
+# mevo-gulp-sass
 
+This project is based on Henrique Carvalho da Cruz gulp-sass-helper, I have replaced node-sass for dart-sass
 Helper app to unify sass implementations for gulp task builds.
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f393343e753149e8870547d17561b012)](https://app.codacy.com/app/henriquecarv/gulp-sass-helper?utm_source=github.com&utm_medium=referral&utm_content=henriquecarv/gulp-sass-helper&utm_campaign=Badge_Grade_Settings)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fhenriquecarv%2Fgulp-sass-helper.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fhenriquecarv%2Fgulp-sass-helper?ref=badge_shield)
-[![npm](https://img.shields.io/npm/v/gulp-sass-helper.svg)](https://www.npmjs.com/package/gulp-sass-helper)
-[![npm](https://img.shields.io/npm/dt/gulp-sass-helper.svg)](https://www.npmjs.com/package/gulp-sass-helper)
+[![npm](https://img.shields.io/npm/v/gulp-sass-helper.svg)](https://www.npmjs.com/package/mevo-gulp-sass)
+[![npm](https://img.shields.io/npm/dt/gulp-sass-helper.svg)](https://www.npmjs.com/package/mevo-gulp-sass)
 [![LICENSE](https://img.shields.io/github/license/henriquecarv/gulp-sass-helper.svg)](./LICENSE)
-[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=henriquecarv/gulp-sass-helper)](https://dependabot.com)
 
 ## System Requirements
 
@@ -15,7 +13,7 @@ Helper app to unify sass implementations for gulp task builds.
 
 ## Installing
 
-- `npm i -D gulp gulp-sass-helper stylelint stylelint-config-sass-guidelines stylelint-scss`
+- `npm i -D gulp mevo-sass-helper stylelint stylelint-config-sass-guidelines stylelint-scss`
 
 ## Usage
 
@@ -33,7 +31,7 @@ Helper app to unify sass implementations for gulp task builds.
 
 ```javascript
 const gulp = require("gulp");
-const helper = require("gulp-sass-helper");
+const helper = require("mevo-gulp-sass");
 
 const paths = { sass: { src: "./react/**/*.scss", dest: "./react" } };
 
@@ -71,9 +69,7 @@ IE 11
 
 ### License
 
-Copylefted (c) 2020 [Henrique Carvalho da Cruz][1] Licensed under the [MIT license][2].
+Copylefted (c) 2023 [Michel Januário da Silva][1] Licensed under the [MIT license][2].
 
-[1]: https://henriquecarv.com
+[1]: https://www.linkedin.com/in/micheljsilva
 [2]: ./LICENSE
-
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fhenriquecarv%2Fgulp-sass-helper.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fhenriquecarv%2Fgulp-sass-helper?ref=badge_large)

@@ -1,7 +1,7 @@
 {
 	"name": "mevo-gulp-sass",
 	"description": "Helper app to unify sass implementations for gulp task builds.",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "index.js",
 	"scripts": {
 		"lint": "eslint . --fix",
